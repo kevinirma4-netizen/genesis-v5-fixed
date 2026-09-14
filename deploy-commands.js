@@ -64,7 +64,7 @@ const tryoutCommand =
     new SlashCommandBuilder()
         .setName('tryout')
         .setDescription(
-            'Black Dragons Tryout Hub'
+            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 Tryout Hub'
         )
 
         /* =====================================================
@@ -76,7 +76,7 @@ const tryoutCommand =
                 subcommand
                     .setName('create')
                     .setDescription(
-                        'Create an Black Dragons tryout lobby'
+                        'Create an 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 tryout lobby'
                     )
         )
 
@@ -115,7 +115,7 @@ const tryoutCommand =
                 subcommand
                     .setName('leaderboard')
                     .setDescription(
-                        'Show the Black Dragons player leaderboard'
+                        'Show the 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 player leaderboard'
                     )
         )
 
@@ -207,7 +207,7 @@ const tryoutCommand =
                 group
                     .setName('scrim')
                     .setDescription(
-                        'Black Dragons scrim controls'
+                        '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 scrim controls'
                     )
 
                     /* =========================================
@@ -219,7 +219,7 @@ const tryoutCommand =
                             subcommand
                                 .setName('create')
                                 .setDescription(
-                                    'Create an Black Dragons scrim'
+                                    'Create an 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 scrim'
                                 )
                     )
 
@@ -245,7 +245,7 @@ const scrimCommand =
     new SlashCommandBuilder()
         .setName('scrim')
         .setDescription(
-            'Black Dragons scrim result tools'
+            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 scrim result tools'
         )
 
         /* =====================================================
@@ -292,7 +292,7 @@ const rest =
         );
 
         console.log(
-            '⏳ Registering Black Dragons commands...'
+            '⏳ Registering 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 commands...'
         );
 
         console.log(
@@ -363,7 +363,7 @@ const rest =
         );
 
         console.log(
-            '✅ Black Dragons COMMANDS REGISTERED'
+            '✅ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 COMMANDS REGISTERED'
         );
 
         console.log(
@@ -428,7 +428,7 @@ const rest =
         );
 
         console.error(
-            '❌ FAILED TO REGISTER Black Dragons COMMANDS'
+            '❌ FAILED TO REGISTER 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 COMMANDS'
         );
 
         console.error(
