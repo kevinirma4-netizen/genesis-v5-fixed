@@ -442,7 +442,7 @@ function updatePresence() {
             activities: [
                 {
                     name:
-                        `Black Dragons • ${tryouts.size}T / ${scrims.size}S`,
+                        `Striker Z • ${tryouts.size}T / ${scrims.size}S`,
 
                     type:
                         ActivityType.Watching
@@ -653,7 +653,7 @@ function tryoutEmbed(
             )
             .setAuthor({
                 name:
-                    '𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎'
+                    '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕�'
             })
             .setTitle(
                 'ᴛʀʏᴏᴜᴛ ʜᴜʙ'
@@ -685,7 +685,7 @@ ${players}`
             })
             .setFooter({
                 text:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
             })
             .setImage(
                 BANNER_URL
@@ -831,7 +831,7 @@ function announcementEmbed(
             )
             .setAuthor({
                 name:
-                    '𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎� • ᴀɴɴᴏᴜɴᴄᴇ'
+                    '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕�� • ᴀɴɴᴏᴜɴᴄᴇ'
             })
             .setTitle(
                 a.phase ===
@@ -866,7 +866,7 @@ ${a.customMessage}`
             )
             .setFooter({
                 text:
-                    '✦ READY • NOT READY • RE-PING • 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 ✦'
+                    '✦ READY • NOT READY • RE-PING • 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� ✦'
             })
     );
 }
@@ -1090,7 +1090,7 @@ function scrimChooseEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • S C R I M ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • S C R I M ✦'
             })
             .setTitle(
                 '◇ CHOOSE SCRIM TYPE'
@@ -1115,7 +1115,7 @@ ${mentionUser(scrim.hostId)}`
             )
             .setFooter({
                 text:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
             })
     );
 }
@@ -1273,7 +1273,7 @@ function scrimPositionEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • S C R I M ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • S C R I M ✦'
             })
             .setTitle(
                 scrimTypeText(
@@ -1314,7 +1314,7 @@ ${queue}`
             })
             .setFooter({
                 text:
-                    '✦ CF • CM • GK • RW • LW • 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 ✦'
+                    '✦ CF • CM • GK • RW • LW • 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 ✦'
             })
     );
 }
@@ -1462,7 +1462,7 @@ function scrimReadyEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • S C R I M ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕  • S C R I M ✦'
             })
             .setTitle(
                 '⚡ SCRIM READY CHECK'
@@ -1503,7 +1503,7 @@ ${
             })
             .setFooter({
                 text:
-                    '✦ READY • NOT READY • 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 ✦'
+                    '✦ READY • NOT READY • 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� ✦'
             })
     );
 }
@@ -1652,7 +1652,7 @@ Selecting one player for each position.
                             )
                             .setFooter({
                                 text:
-                                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • RANDOM PICK ✦'
+                                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • RANDOM PICK ✦'
                             })
                     )
                 ],
@@ -1710,7 +1710,7 @@ async function pingScrimRole(
                     roleId
                 )}
 
-✦ **Black Dragons ${scrim.type.toUpperCase()} SCRIM OPEN**
+✦ **𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 ${scrim.type.toUpperCase()} SCRIM OPEN**
 
 Choose your position below.`,
 
@@ -1767,7 +1767,7 @@ async function pingSelectedPlayers(
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
-✦ **Black Dragons • SELECTED LINEUP** ✦
+✦ **𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • SELECTED LINEUP** ✦
 
 ${lineup}
 
@@ -2033,7 +2033,7 @@ function notReadyModal(
             `notready_modal:${messageId}`
         )
         .setTitle(
-            'Black Dragons • NOT READY'
+            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • NOT READY'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2171,8 +2171,8 @@ function resultModal(
             .setTitle(
                 type ===
                     'gk'
-                    ? 'Black Dragons • GK RESULT'
-                    : 'Black Dragons • STRIKER RESULT'
+                    ? '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕• GK RESULT'
+                    : '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • STRIKER RESULT'
             );
 
     if (
@@ -2302,7 +2302,7 @@ function resultEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • T R Y O U T ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • T R Y O U T ✦'
             })
             .setTitle(
                 `${user.username} • OFFICIAL RESULT`
@@ -2461,7 +2461,7 @@ function resultEmbed(
 
     embed.setFooter({
         text:
-            '✦ OFFICIAL Black Dragons TRYOUT RESULT ✦'
+            '✦ OFFICIAL 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 TRYOUT RESULT ✦'
     });
 
     return setBanner(
@@ -2481,7 +2481,7 @@ function clubModal(
             `scrim_clubs:${sessionId}`
         )
         .setTitle(
-            'Black Dragons • CLUB NAMES'
+            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • CLUB NAMES'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2548,7 +2548,7 @@ function roundModal(
             `scrim_round:${session.id}:${round}`
         )
         .setTitle(
-            `Black Dragons • ROUND ${round}`
+            `𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • ROUND ${round}`
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2619,7 +2619,7 @@ function mvpModal(
             `scrim_mvp:${sessionId}`
         )
         .setTitle(
-            'Black Dragons • OVERALL MVP'
+            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • OVERALL MVP'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2824,7 +2824,7 @@ function scrimResultControlEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • S C R I M  R E S U L T S ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • S C R I M  R E S U L T S ✦'
             })
             .setTitle(
                 '◇ MATCH RESULT CONTROL'
@@ -2871,7 +2871,7 @@ ${mvp}`
             )
             .setFooter({
                 text:
-                    '✦ PRIVATE HOST CONTROL • 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 ✦'
+                    '✦ PRIVATE HOST CONTROL • 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� ✦'
             })
     );
 }
@@ -3039,7 +3039,7 @@ function scrimResultPublicEmbed(
             )
             .setAuthor({
                 name:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • S C R I M  R E S U L T ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 � • S C R I M  R E S U L T ✦'
             })
             .setTitle(
                 '◇ OFFICIAL SCRIM RESULT'
@@ -3118,7 +3118,7 @@ ${rounds}
             )
             .setFooter({
                 text:
-                    '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • OFFICIAL SCRIM RESULT ✦'
+                    '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 � • OFFICIAL SCRIM RESULT ✦'
             })
     );
 }
@@ -3614,7 +3614,7 @@ client.on(
                                 new EmbedBuilder()
                                     .setColor(GOLD)
                                     .setAuthor({
-                                        name: '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • T R Y O U T  R E S U L T S ✦'
+                                        name: '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • T R Y O U T  R E S U L T S ✦'
                                     })
                                     .setTitle('◇ SELECT PLAYER')
                                     .setDescription(
@@ -3622,7 +3622,7 @@ client.on(
                                         'The panel will automatically switch to the **STRIKER / GOALKEEPER** controls after selection.'
                                     )
                                     .setFooter({
-                                        text: '✦𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                                        text: '✦𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • E U ✦'
                                     })
                             )
                         ],
@@ -3708,7 +3708,7 @@ client.on(
                                     )
                                     .setAuthor({
                                         name:
-                                            '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • L E A D E R B O A R D ✦'
+                                            '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • L E A D E R B O A R D ✦'
                                     })
                                     .setTitle(
                                         '◇ TRYOUT LEADERBOARD'
@@ -3718,7 +3718,7 @@ client.on(
                                     )
                                     .setFooter({
                                         text:
-                                            '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                                            '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
                                     })
                             )
                         ]
@@ -3939,7 +3939,7 @@ client.on(
                                     )
                                     .setAuthor({
                                         name:
-                                            '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • P L A Y E R  P R O F I L E ✦'
+                                            '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • P L A Y E R  P R O F I L E ✦'
                                     })
                                     .setTitle(
                                         user.username
@@ -3965,7 +3965,7 @@ client.on(
                                     )
                                     .setFooter({
                                         text:
-                                            '✦𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                                            '✦𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
                                     })
                             )
                         ]
@@ -4037,7 +4037,7 @@ const amount =
                                 'announcement_modal'
                             )
                             .setTitle(
-                                'Black Dragons • ANNOUNCEMENT'
+                                '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • ANNOUNCEMENT'
                             )
                             .addComponents(
                                 new ActionRowBuilder()
@@ -4114,7 +4114,7 @@ const amount =
                                 new EmbedBuilder()
                                     .setColor(GOLD)
                                     .setAuthor({
-                                        name: '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • T R Y O U T  R E S U L T S ✦'
+                                        name: '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • T R Y O U T  R E S U L T S ✦'
                                     })
                                     .setTitle('◇ PLAYER TYPE')
                                     .setDescription(
@@ -4126,7 +4126,7 @@ const amount =
                                         `Goalkeeping • Reaction Time • Passing • Defending`
                                     )
                                     .setFooter({
-                                        text: '✦𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                                        text: '✦𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
                                     })
                             )
                         ],
@@ -5599,7 +5599,7 @@ const amount =
                     return interaction.showModal(
                         serverLinkModal(
                             `scrim_server_link:${messageId}`,
-                            'Black Dragons • SCRIM SERVER LINK',
+                            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • SCRIM SERVER LINK',
                             scrim.serverLink
                         )
                     );
@@ -6011,7 +6011,7 @@ const amount =
                     return interaction.showModal(
                         serverLinkModal(
                             `tryout_server_link:${messageId}`,
-                            'Black Dragons • TRYOUT SERVER LINK',
+                            '𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕 • TRYOUT SERVER LINK',
                             lobby.serverLink
                         )
                     );
@@ -6126,7 +6126,7 @@ const amount =
                                 new EmbedBuilder()
                                     .setColor(GOLD)
                                     .setAuthor({
-                                        name: '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • T R Y O U T  R E S U L T S ✦'
+                                        name: '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • T R Y O U T  R E S U L T S ✦'
                                     })
                                     .setTitle('◇ STRIKER POSITION')
                                     .setDescription(
@@ -6136,7 +6136,7 @@ const amount =
                                         `CF • CM • RW • LW`
                                     )
                                     .setFooter({
-                                        text: '✦ 𝘽𝙇𝘼𝘾𝙆 𝘿𝙍𝘼𝙂𝙊𝙉𝙎 • E U ✦'
+                                        text: '✦ 𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕� • E U ✦'
                                     })
                             )
                         ],
@@ -6613,7 +6613,7 @@ const amount =
 
                     const result = {
                         id:
-                            `Black Dragons-${Date.now()}`,
+                            `𝙎𝙏𝙍𝙄𝙆𝙀𝙍 𝙕-${Date.now()}`,
 
                         hostId:
                             session.hostId,
