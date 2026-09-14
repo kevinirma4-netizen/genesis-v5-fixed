@@ -61,7 +61,7 @@ const BLUE = 0x4B9BE8;
 const PURPLE = 0x8B6FB6;
 
 const DEFAULT_BANNER =
-    'https://ibb.co/Z6kkF1kt';
+    'https://ibb.co/SD3XbJng ';
 
 function cleanString(value) {
     return String(value || '')
